@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Buku Induk</h2>
+
+    <form action="/action_page.php">
+      <fieldset>
+      <legend>Data diri:</legend>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value=""><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value=""><br>
+
+      <label for="umur">Umur:</label><br>
+      <input type="text" id="Umur" name="Umur" value=""><br><br>
+
+      <label for="Kelas">Pilih Kelas:</label>
+      <select id="Kelas" name="Kelas">
+      <option value="XIR-1">XIR-1</option>
+      <option value="XIR-2">XIR-2</option>
+      <option value="XIR-3">XIR-3</option>
+      <option value="XIR-4">XIR-4</option>
+      <option value="XIR-5">XIR-5</option>
+      <option value="XIR-6">XIR-6</option>
+      <option value="XIR-7">XIR-7</option>
+      <option value="XIR-8">XIR-8</option>
+
+      </select>
+      
+      <p>Jenis Kelamin:</p>
+  <input type="radio" id="laki-laki" name="kelamin" value="Laki-laki">
+  <label for="Laki=laki">Laki-laki</label><br>
+  <input type="radio" id="perempuan" name="kelamin" value="Perempuan">
+  <label for="perempuan">Perempuan</label><br>
+  <br>
+
+<button type="button" onclick="alert('Data sudah tersimpan')">Submit</button>
+
+    </fieldset>
+    </form> 
+       
+</body>
+</html>
